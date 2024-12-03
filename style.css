@@ -1,0 +1,166 @@
+:root {
+    --specialcolor: red;
+
+}
+
+* {
+    font-family: "Besley", serif;
+
+}
+
+*::selection {
+    background-color: var(--specialcolor);
+    color: black;
+}
+
+.navbar {
+    padding: 20px;
+
+
+}
+
+.navbar a {
+    color: white;
+    margin: 0 30px;
+}
+
+.nav-link:hover {
+    color: var(--specialcolor);
+}
+
+.navbar span {
+    font-size: 1.4em;
+    font-weight: 700;
+
+}
+
+.navbar-brand::first-letter {
+    color: var(--specialcolor);
+}
+
+.jumbotron {
+    background-color: red;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+
+}
+
+.jumbotron h1 {
+    font-size: 1em;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 700;
+
+}
+
+.jumbotron h1 span {
+    color: blue;
+}
+
+.jumbotron p span {
+    color: blue;
+}
+
+/* carousel styling */
+.firstsectionimg {
+    height: 50vh;
+    width: 100%;
+}
+
+.content-carousel {
+    position: absolute;
+    top: 100px;
+
+    /* margin-bottom: 700px; */
+
+    color: white;
+    background-color: black;
+    padding: 6px;
+    width: 70%;
+    height: 100px;
+
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+
+
+
+}
+
+.carousel-caption h5 span {
+    color: var(--specialcolor);
+}
+
+#events {
+    background-color: rgb(84, 37, 45);
+}
+
+.about-img {
+    width: 60%;
+
+}
+.text-justify{
+    text-align: justify;
+}
+.content-about h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--specialcolor);
+}
+
+.content-about h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content-about h5 span {
+    color: blue;
+}
+
+.btn-connect {
+    width: 300px;
+    background-color: var(--specialcolor);
+    color: #fff;
+    border-radius: 15px;
+}
+
+.modal-content {
+    background-color: black;
+    color: white;
+}
+
+.footer-heading {
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(100, 16, 30);
+    color: red;
+}
+
+.footer-address {
+    list-style-type: none;
+}
+
+.socialmedia {
+    list-style-type: none;
+}
+
+.quicklink a {
+    text-decoration: none;
+}
+.card-desc{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1191px) {
+    .carousel-caption h5 {
+        font-size: 25px;
+    
+    
+    
+    }
+}
